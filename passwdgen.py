@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Generate a password that is good enough for WUR use
 
-Usage : passwdgen.py [length of password]
+Usage : passwdgen.py [length of password] [number of passwords]
 
 """
 import sys
