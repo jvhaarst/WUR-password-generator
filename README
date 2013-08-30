@@ -1,0 +1,8 @@
+Usage of this is simple, create a crontab entry like this :
+# Change the password automatically so I don't get pestered anymore for changes
+59 08 01 * * ~/bin/passwdchange.sh scomp0001.wurnet.nl short001 Curr3ntP4ssw0rD
+
+Now at every first day of the month, at 8h59, the script will cycle through 
+89 random passwords, and then set it back to the original one.
+
+For me this has worked for a while now.
