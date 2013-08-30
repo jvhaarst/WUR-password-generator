@@ -11,7 +11,7 @@ server=$1
 user=$2
 current_password=$3
 PREVIOUS=${current_password}
-for COUNTER in `seq 10 99`
+for COUNTER in `seq 10 35`
 do
 	CURRENT=`./passwdgen.py 12`
 	echo "Counter at:"${COUNTER}
